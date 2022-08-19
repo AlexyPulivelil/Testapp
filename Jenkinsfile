@@ -5,9 +5,9 @@ pipeline {
     
   stages {
         
-    stage('Git') {
+    stage('Git Pull') {
       steps {
-        git changelog: false, credentialsId: 'github', poll: false, url: 'https://github.com/AlexyPulivelil/testapp'
+        git url: 'https://github.com/AlexyPulivelil/testapp' branch: 'pipeline'
       }
     }
      
