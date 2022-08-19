@@ -7,7 +7,7 @@ pipeline {
         
     stage('Git Pull') {
       steps {
-        git url: 'https://github.com/AlexyPulivelil/testapp' branch: 'pipeline'
+        git url: 'https://github.com/AlexyPulivelil/testapp', branch: 'pipeline'
       }
     }
      
@@ -18,9 +18,9 @@ pipeline {
     }  
     
             
-    stage('Test') {
+    stage('Test node versions') {
       steps {
-        sh 'ls -al'
+        sh 'node -v'
       }
     }
   }
