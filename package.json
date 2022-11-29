@@ -163,6 +163,12 @@
   "bugs": {
     "url": "https://github.com/AlexyPulivelil/testapp/issues"
   },
+
+  "publishConfig":{
+    "registry":"https://techino.jfrog.io/artifactory/api/npm/npmdefault-npm-local/"
+  },
+
+
   "homepage": "https://github.com/AlexyPulivelil/testapp#readme",
   "description": ""
 }

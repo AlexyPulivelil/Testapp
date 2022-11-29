@@ -1,0 +1,5 @@
+version: 1
+type: npm
+resolver:
+  repo: https://techino.jfrog.io/artifactory/npm-challenge-local-npm-local/
+  serverId: test
