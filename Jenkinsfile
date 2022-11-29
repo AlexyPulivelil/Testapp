@@ -18,9 +18,9 @@ pipeline {
 
                 sh 'jf -v'
 
-                sh 'jf npm-install --build-name=npm-challenge-build --build-number=1.0.0'
+                sh 'jf rt npm-install --build-name=npm-challenge-build --build-number=1.0.0'
 
-                sh 'jf npm-install --build-name=npm-challenge-build --build-number=1.0.0'
+                sh 'jf rt npm-install --build-name=npm-challenge-build --build-number=1.0.0'
 
                 sh 'jf rt bce npm-challenge-build 1.0.0'
                 
